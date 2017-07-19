@@ -1,5 +1,5 @@
 /*
- * Modify servo as detailed in instructable before running this code 
+ * Modify servo as detailed in Instructable before running this code 
  * Connect servo to 5V, GND and digital pin 13
  */
 
