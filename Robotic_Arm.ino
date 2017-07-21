@@ -42,7 +42,7 @@ void setup() {
   Serial.println("Please rotate finger so it is bent over, fully contracted");
   delay(2000);
   MidCont=(analogRead(Midpot));
-  Serial.println("The range of the potentiometer is calibrated, you can comment out/delete the above code"); //deleting code means you won't have to go through this each time you start up the program
+  Serial.println("The range of the potentiometer is calibrated"); 
 }
 
 void loop() {
