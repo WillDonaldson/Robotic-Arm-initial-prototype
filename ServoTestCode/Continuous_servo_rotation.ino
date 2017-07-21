@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   myServo.write(0);
-  delay(6000);        //servo will rotate in one direction for 6secs
-  myServo.write(180); //servo will rotate in opposite direction 
+  delay(6000);        //servo will continuously rotate in one direction for 6secs
+  myServo.write(180); //servo will continuously rotate in opposite direction 
   delay(6000);
 }
