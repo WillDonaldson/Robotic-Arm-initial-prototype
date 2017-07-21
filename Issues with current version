@@ -1,0 +1,55 @@
+List of issues in need of resolving
+
+Note: I personally believe it would be a more efficient allocation of time to redesign from scratch keeping the below issues in mind rather than going through this list and trying to touch up the exist CAD files (but each to their own).
+
+1.0 Functionality
+1.1 Fingers
+•	Use stronger elastic, the thin strands I used have a tendency to break
+•	Wider hole for the elastic to be fed thru
+•	Not all the black finger pieces fit snuggly on the white ones, this prevents smooth rotation of the fingers and consequently sometimes the tension in the elastic isn’t enough to pull them back to rest and they get stuck.
+•	Potentiometers in the knuckle is ineffective as the top segment of the finger (where the finger nail would be) tends to bend first, followed by the second, meaning no reading is collected until the segment closest to the palm starts rotating. Thus if something blocks the lower section you have no knowledge of the position of the top two segments.
+•	Ideally actuate the pinky and ring fingers separately, but not of vital importance since you rarer need to move one without moving the other one in unison.
+•	Tying knot in end of elastic is almost impossible while keeping it taught, had to set for super glue structurally 
+•	 
+1.2 Thumb
+•	Axle it spins on is too loose
+•	Spins on servo
+•	Some of the issues of the fingers translate also into the thumb
+1.3 Servos 
+¬	Continuous Rotation servos (Index and Thumb Contraction)
+•	Pulley can over wind causing fishing line to be pulled again
+¬	Compressed 2-in-1 continuous rotation geared dc motors
+•	Screw substitute is too narrow, resulting in large vibrations
+¬	Thumb rotation servo
+•	
+1.4 Palm
+•	Thumb contraction servo is free to move, no enough support walls
+•	Middle finger contraction servo pulley is too close to the wall, has a lot of friction.
+1.5 Wrist
+•	While the wrist functions well (I tested it with higher torque servos) it probably won’t work well and may break (depending on the spring and servo strength) if the hand is holding anything of significant weight.
+Several design flaws:
+•	Of the 4 screw holes used for mounting the servos only one can be reached (oversight on my part), instead use glue
+•	The servo responsible for left/right motion (ie waving) could easily be torn out of its mount, instead I should have put a wall on the other side to prevent it from pulling itself out under its own rotation.
+•	The servos are too weak to actually rotate the wrist (at least for the springs I used), so this step is actually kinda redundant, since it won't move.
+•	
+1.6 Forearm
+•	The forearm should be made wider so larger, high torque servos such as Kuman MG996 can fit inside without the armatures hitting the walls.
+•	Redesigned so the hand can rotate around the forearm axis while the base of the forearm near the elbow remains stationary.
+•	The black piece of the forearm needs to have its edges trimmed for a smoother fit inside the white pieces
+•	Magnets
+1.7 3D printing issues and CAD file issues
+
+2.0 Aesthetics 
+•	The section where the knuckles meet the palm needs to be smoothed out
+•	The knuckles of a normal human hand arch [1] with the middle knuckle being at the peak of the arch, whereas mine is a linear progression from pinky being the lowest to the highest being the index
+•	Perhaps some covers for the screws in the palm
+3.0 Additional
+•	Arduino Nano
+•	In redesign I would like to try using mechanical fingers over fishing line and wires see [2] & [3]
+•	Use rechargeable lipos 
+•	One hand is assembled it is hard and time consuming to repair or replace parts that break inside the palm
+
+External Links:
+[1] http://i39.tinypic.com/2ztdif8.jpg   
+[2] https://1dtbef22buhyxzall2snlwn1-wpengine.netdna-ssl.com/wp-content/uploads/2014/08/usr-661-img-1407436396-29f91-498x356.png
+[3] http://farm8.staticflickr.com/7035/6833252823_b68727f043_z.jpg 
