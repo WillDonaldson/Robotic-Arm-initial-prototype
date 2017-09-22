@@ -6,7 +6,7 @@
         •	Wider hole for the elastic to be fed thru
         •	Not all the black finger pieces fit snuggly on the white ones, this prevents smooth rotation of the fingers and   
             consequently sometimes the tension in the elastic isn’t enough to pull them back to rest and they get stuck.
-        •	Potentiometers in the knuckle are ineffective as the top segment of the finger (where the finger nail would be)  
+        •	Potentiometers in the knuckle are ineffective as the top segment of the finger (where the fingernail would be)  
             tends to bend first, followed by the second, meaning no reading is collected until the segment closest to the palm  
             starts rotating. Thus if something blocks the segment closest to the palm, you have no knowledge of the position  
             of the top two segments, they will begin rotating why the potentiometer reads the finger is at rest, fully extended.  
@@ -15,7 +15,7 @@
             number of wires required to fit) or a motor encoder to track how many revolutions the motor makes.
         •	Ideally I would actuate the pinky and ring fingers separately, but not of vital importance since you rarely need  
             to move one without moving the other one.
-        •	Tying knot in end of elastic is almost impossible while keeping it taught, had to set for super glue instead. 
+        •	Tying knot in end of elastic is almost impossible while keeping it taught, had to settle for super glue instead. 
     1.2 Thumb
         •	Axle it spins on is too loose, fortunately this would be a pretty simple fix 
         •	When the finger is contracted, the finger begins to rotate as well as being contracted because the axle mount on  
@@ -44,9 +44,9 @@
         ¬Thumb rotation servo
             •	All in all aside from the slipping issue mentioned under section 1.2 this operated as expected.
     1.4 Palm
-        •	Thumb contraction servo is free to move, no enough support walls to hold it in place, instead had to use glue, 
-            something I would prefer not to use, in order to replace parts easily
-        •	Ideally I would place an additional screw hole near the pinky finge
+        •	Thumb contraction servo is free to move, not enough support walls to hold it in place, instead had to use glue, 
+            something I would prefer not to use
+        •	Ideally I would place an additional screw hole near the pinky finger
         •	Serveral of the finger contraction pulleys are too close to the wall, resulting in significant friction, but 
             mostly a simple fix 
         •	The fishing line holes for fingers are hard to clean without a long drill bit
@@ -67,7 +67,7 @@
 
 2.0 Aesthetics 
     •	The section where the knuckles meet the palm needs to be smoothed out
-    •	Not a huge issue but the hand is slightly larger than an adult males hand, in later versions I would like to shrink it
+    •	Not a huge issue but the hand is approximately 10% larger than an adult males hand, in later versions I would like to shrink it
     •	The knuckles of a normal human hand arch [1] with the middle knuckle being at the peak of the arch, whereas mine is an (almost) linear progression from pinky being the lowest knuckle to the highest knuckle being the index
     •	Perhaps some covers to hide the screws in the palm
 
